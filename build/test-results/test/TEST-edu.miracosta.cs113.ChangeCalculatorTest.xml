@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.miracosta.cs113.ChangeCalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-18T23:46:20" hostname="DEETZBASE" time="0.091">
+  <properties/>
+  <testcase name="testDuplicates" classname="edu.miracosta.cs113.ChangeCalculatorTest" time="0.011"/>
+  <testcase name="testOthersLarge" classname="edu.miracosta.cs113.ChangeCalculatorTest" time="0.046"/>
+  <testcase name="testMultiplesOfFiveLarge" classname="edu.miracosta.cs113.ChangeCalculatorTest" time="0.032"/>
+  <testcase name="testMultiplesOfFive" classname="edu.miracosta.cs113.ChangeCalculatorTest" time="0.0"/>
+  <testcase name="testOthers" classname="edu.miracosta.cs113.ChangeCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
