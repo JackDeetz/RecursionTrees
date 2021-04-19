@@ -9,7 +9,8 @@
 
 Using the provided ChangeCalculator class, implement the recursive method `calculateChange(int)` which will dispense change for a given amount of money. The method will **display and return** the total number of combinations of quarters, dimes, nickels, and pennies that equal the desired amount and all of the combinations as well. Avoid duplication.
 
-If you choose to use a data structure, it must be one that we've covered and you must thoroughly justify why it was the best choice (based on run-time efficiency): **[//here//]**
+If you choose to use a data structure, it must be one that we've covered and you must thoroughly justify why it was the best choice (based on run-time efficiency): 
+** log(n)**  TreeSet gives the the most efficiency, without losing an order to the objects, which we want to keep
 
 Next, you will implement the method `printCombinationsToFile(int)`, which should contain a call to the recursive solution that you created. Creating a text file in the program's directory named `"CoinCombinations.txt"`, this method will write each combination produced to separate lines. This file will be read by the tester class to verify that your recursive solution avoids duplicate values.
 
@@ -33,24 +34,24 @@ The two methods will be tested using 5 cent increments between 5 cents and 30 ce
 1. Draw binary expression trees for the following infix expressions.  Your trees should enforce the Java rules for operator evaluation (higher-precedence operators before lower-precedence operators and left associativity.) Note: they should also preserve the order seen in the expressions.
   - `x / y + a - b * c`
 
-  **[//Insert image here//]**
+  ![image](https://user-images.githubusercontent.com/78005286/115168962-8ea72780-a071-11eb-8b86-47890b7841db.png)
   - `(x * a) - y / b * (c + d)`
   
-  **[//Insert image here//]**
+  ![image](https://user-images.githubusercontent.com/78005286/115168984-9e267080-a071-11eb-9090-6f2e2a9fe941.png)
   
   - `(x + (a * (b - c)))/ d`
   
-  **[//Insert image here//]**
+  ![image](https://user-images.githubusercontent.com/78005286/115168992-a54d7e80-a071-11eb-9645-cda4a754a62a.png)
   
 2. Using the Huffman tree in the figure below:
 
 ![Image of huffman code tree](doc/problemImages/huffman.png)
 
   - Write the binary string for the message "scissors cuts paper":
-    - Binary String = `insert here`
+    - Binary String = 00110000001100011001110010010001111100000000011101001111110000110101000010100010
   - Decode the following binary string using the tree above:
-  `1100010001010001001011101100011111110001101010111101101001`
-    - Decoded String = `insert here`
+  `110001 0001 010 0010 010 111 0110 0011 111 110001 1010 10111 10110 1001`
+    - Decoded String = where is waldo
 
 3. For each of the two trees shown below, answer these questions:
 - What is its height?
@@ -60,35 +61,53 @@ The two methods will be tested using 5 cent increments between 5 cents and 30 ce
 
 ![Image of tree for problem 3A](doc/problemImages/problem3A.png)
 
-`insert answers here`
+Height : 3
+Full Tree : false (every node does not have 2 children)
+complete tree : true (every level except for the bottom level is full)
+Binary search tree : False (move the 32 to be the right child of 30 to make it a binary search tree)
 
 ![Image of tree for problem 3B](doc/problemImages/problem3B.png)
 
-`insert answers here`
+
+Height : 3
+Full Tree : false (every node does not have 2 children)
+complete tree : true (every level except for the bottom level is full)
+Binary search tree : False (Move 32 to be the left child of 35 to make it a Binary Search Tree)
 
 4. For the binary trees shown below, indicat whether each tree is full, perfect, complete, or none of the above (note that a tree could be more than one of these!)
 
 ![Image of tree for problem 4A](doc/problemImages/problem4A.png)
 
-`insert answers here`
+Full :    false
+Perfect : false (every level is not perfectly full)
+Complete :  true (Every level is full except the bottom, and the bottom is padded left)
+
 
 ![Image of tree for problem 4B](doc/problemImages/problem4B.png)
 
-`insert answers here`
+Full :    True (every node either has no children or exactly 2)
+Perfect : false (every level is not perfectly full)
+Complete :  true (Every level is full except the bottom, and the bottom is padded left)
 
 ![Image of tree for problem 4C](doc/problemImages/problem4C.png)
 
-`insert answers here`
+Full :    True (every node either has no children or exactly 2)
+Perfect : false (every level is not perfectly full)
+Complete :  false (Every level is full except the bottom isn't padded to the left)
 
 ![Image of tree for problem 4A](doc/problemImages/huffman.png)
 
-`insert answers here`
+Full :    True (every node either has no children or exactly 2)
+Perfect : false (every level is not perfectly full)
+Complete :  false (Every level is full except the bottom isn't padded to the left)
 
 5. Represent the general tree below as a binary tree
 
 ![Image of general tree for problem 5](doc/problemImages/problem5-general.png)
 
-**[//Insert image here//]**
+![image](https://user-images.githubusercontent.com/78005286/115169006-b1394080-a071-11eb-9a9b-1dc4710d8c3e.png)
+
+
 
 
 ----------
